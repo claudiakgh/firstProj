@@ -16,7 +16,7 @@
 </head>
 <body>
   <div class="wrapper">
-  <header class="top_bar">
+  <header class="top_bar" id="top">
     <section class="top_bar">
       <h1>&#10084; Welcome to my personal blog</h1>
       <nav class="social">
@@ -166,6 +166,9 @@
   </nav>
   </section>
   <!--End Article 3-->
+  <div>
+    <img src="images/sj_quote.jpg" alt="'Design is not just what it looks like and feels like. Design is how it works.' Steve Jobs">
+  </div>
   <div class="articles_feed">
     <button type="button" class="articles_feed">
       Older Post <span>&rsaquo;</span>
@@ -173,7 +176,7 @@
   </div>
   </main>
   <aside class="sidebar">
-    <section>
+    <section class="sidebar_sect">
       <div class="h_lineD">
         <h1>About Me</h1>
       </div>
@@ -193,9 +196,143 @@
         </ul>
       </nav>
     </section>
+
+    <section class="sidebar_sect">
+      <div class="h_lineD">
+        <h1>Categories</h1>
+      </div>
+      <figure class="h_line2">
+        <img src="images/h_line2.jpg" alt="">
+      </figure>
+      <nav role="navigation" class="aside_articles">
+        <ul>
+          <li><a href="#">Beauty (07)</a></li>
+          <li><a href="#">Culture (03)</a></li>
+          <li><a href="#">Entertainment (03)</a></li>
+          <li><a href="#">Fashion (11)</a></li>
+          <li><a href="#">Health (13)</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="sidebar_sect">
+      <div class="h_lineD">
+        <h1>Recent Posts</h1>
+      </div>
+      <figure class="h_line2">
+        <img src="images/h_line2.jpg" alt="">
+      </figure>
+      <nav role="navigation" class="aside_articles_timeline">
+        <ol>
+          <li><a href="#"><img src="images/post_01.jpg" alt=""></a>
+            <section>
+              <h1><a href="#">Takin' a bre from all your</a></h1>
+              <header>
+              <p>January 10, 2016</p>
+            </header></section></li>
+          <li><a href="#"><img src="images/post_02.jpg" alt=""></a>
+            <section>
+              <h1><a href="#">New civilizations boldly go</a></h1>
+              <header>
+              <p>January 11, 2016</p>
+            </header></section></li>
+          <li><a href="#"><img src="images/post_03.jpg" alt =""></a>
+            <section>
+              <h1><a href="#">Travelled down the road and</a></h1>
+              <header>
+              <p>January 12, 2016</p>
+            </header></section></li>
+          <li><a href="#"><img src="images/post_04.jpg" alt=""></a>
+            <section>
+              <h1><a href="#">These promply escaped from</a></h1>
+              <header>
+              <p>January 12, 2016</p>
+            </header></section></li>
+            <li><a href="#"><img src="images/post_05.jpg" alt=""></a>
+            <section>
+              <h1><a href="#">Took a whole tryin' just to</a></h1>
+              <header>
+              <p>January 13, 2016</p>
+            </header></section></li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="sidebar_sect">
+      <div class="h_lineD">
+        <h1>Archives</h1>
+      </div>
+      <figure class="h_line2">
+        <img src="images/h_line2.jpg" alt="">
+      </figure>
+      <select class="month_select" name="month">
+        <option value="">Month</option>
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+    </section>
+
+    <section class="sidebar_sect">
+      <div class="h_lineD">
+        <h1>Tags</h1>
+      </div>
+      <figure class="h_line2">
+        <img src="images/h_line2.jpg" alt="">
+      </figure>
+      <nav class="categ_tags">
+        <ul>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Inspiration</a></li>
+        </ul>
+      </nav>
+    </section>
+
   </aside>
 </div>
-
+<!--<footer>
+  <section>
+    <h1>About me</h1>
+    <p>The movie star the proffesor and Mary Ann here on Gilligans Isle. Just two good ol'boys Never meaning' no harm beats all you've ever saw been in with the law</p>
+    <button type="button">Read More</button>
+  </section>
+</footer>-->
+<footer>
+  <nav class="social_footer">
+    <ul>
+      <li><a href="">Facebook</a></li>
+      <li><a href="">Tweeter</a></li>
+      <li><a href="">Google</a></li>
+      <li><a href="">Pinterest</a></li>
+      <li><a href="">Instagram</a></li>
+      <li><a href="">Tumblr</a></li>
+    </ul>
+  </nav>
+  <div>
+    <a href="#">
+      <img src="images/schema.jpg" alt="Schema Web Site">
+    </a>
+  </div>
+  <section>
+    <p>&copy; 2016 All rights reserved</p>
+    <figure>
+      <img src="images/logo_site2.jpg" alt="">
+    </figure>
+    <p><a href="#top">Back to top <span id="toparr">&uarr;</span></a></p>
+  </section>
+</footer>
 
 
 </div>
@@ -221,5 +358,6 @@
   });
   });
 </script>
+
 </body>
 </html>
