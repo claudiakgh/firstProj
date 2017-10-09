@@ -21,10 +21,10 @@
       <h1>&#10084; Welcome to my personal blog</h1>
       <nav class="social">
         <ul>
-          <li><a href="#">FACEBOOK</a></li>
-          <li><a href="#">TWITTER</a></li>
-          <li><a href="#">GOOGLE+</a></li>
-          <li><a href="#">INSTAGRAM</a></li>
+          <li><img src="images/facebook_icon.png" alt=""><a href="#">FACEBOOK</a></li>
+          <li><img src="images/twiter_icon.png" alt=""><a href="#">TWITTER</a></li>
+          <li><img src="images/google_icon.png" alt=""><a href="#">GOOGLE+</a></li>
+          <li><img src="images/instagram_icon.png" alt=""><a href="#">INSTAGRAM</a></li>
         </ul>
       </nav>
     </section>
@@ -35,13 +35,18 @@
     </section>
     <hr>
     <ul class="menu">
-      <li><a href="#">HOME</a></li>
+      <li><a href="index.html" class="selected">HOME</a></li>
       <li><a href="#">ABOUT</a></li>
       <li><a href="#">FASHION</a></li>
       <li><a href="#">TRAVEL</a></li>
       <li><a href="#">FOOD</a></li>
       <li><a href="#">FEATURES</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li>
+        <form action="">
+          <input type="text" name="search">
+        </form>
+      </li>
     </ul>
     <!--<section id="slider1">
       <figure>
@@ -68,6 +73,7 @@
 </header>
 
 <div class="main">
+  <div class="alg_center_fSB">
   <main class="articles_wrapper">
     <!--Article 1-->
     <article>
@@ -302,14 +308,102 @@
 
   </aside>
 </div>
-<!--<footer>
-  <section>
-    <h1>About me</h1>
-    <p>The movie star the proffesor and Mary Ann here on Gilligans Isle. Just two good ol'boys Never meaning' no harm beats all you've ever saw been in with the law</p>
-    <button type="button">Read More</button>
-  </section>
-</footer>-->
-<footer>
+  <aside class="more_aside">
+    <section>
+      <header>
+        <img src="images/branch_left.jpg" alt="">
+        <h1>About me</h1>
+        <img src="images/branch_right.jpg" alt="">
+      </header>
+      <article>
+        <header>
+          <figure>
+            <img class="round_img"src="images/me.jpg" alt="">
+          </figure>
+          <h1>Henry <br>Johnson</h1>
+        </header>
+        <main>
+          <p>The movie star the proffesor and Mary Ann here on Gilligans Isle. Just two good ol'boys Never meaning' no harm beats all you've ever saw been in with the law</p>
+          <button type="button">Read More</button>
+        </main>
+
+      </article>
+
+    </section>
+
+    <section>
+      <header>
+        <img src="images/branch_left.jpg" alt="">
+        <h1>Latest Posts</h1>
+        <img src="images/branch_right.jpg" alt="">
+      </header>
+      <nav class="latest_posts">
+        <ol>
+          <li>
+            <article>
+              <header>
+                <a href="#"><img src="images/latest1.jpg" alt=""></a>
+                <div>
+                  <a href="#"><h1>Maybe you amd me never meant</h1></a>
+                  <p>January 10, 2016</p>
+                </div>
+              </header>
+            </article>
+          </li>
+          <li>
+            <article>
+              <header>
+                <a href="#"><img src="images/latest1.jpg" alt=""></a>
+                <div>
+                  <a href="#"><h1>Maybe you amd me never meant</h1></a>
+                  <p>January 10, 2016</p>
+                </div>
+              </header>
+            </article>
+          </li>
+          <li>
+            <article>
+              <header>
+                <a href="#"><img src="images/latest1.jpg" alt=""></a>
+                <div>
+                  <a href="#"><h1>Maybe you amd me never meant</h1></a>
+                  <p>January 10, 2016</p>
+                </div>
+              </header>
+            </article>
+          </li>
+        </ol>
+      </nav>
+
+    </section>
+
+    <section>
+      <header>
+        <img src="images/branch_left.jpg" alt="">
+        <h1>On Pinterest</h1>
+        <img src="images/branch_right.jpg" alt="">
+      </header>
+    </section>
+
+  </aside>
+  <footer class="subscribe_footer">
+    <section>
+      <h1>Subscribe to our Newsletter</h1>
+      <p>Movin' on up to the east side.
+      We finally got a piece of the pie.
+      And we know Flipper lives in a world full of wonder flying there-under the sea
+      </p>
+    </section>
+    <section>
+      <input type="text" placeholder="Your email address" name="email">
+      <button>
+        Subscribe
+      </button>
+    </section>
+  </footer>
+</div>
+
+<footer class="footerB">
   <nav class="social_footer">
     <ul>
       <li><a href="">Facebook</a></li>
