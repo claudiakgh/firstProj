@@ -1412,3 +1412,17 @@ function logEmail({email}) {
   console.log(email);
 }
 logEmail(Mike);
+
+// When it comes to object, a Javascript variable behaves more like a kind of automatic pointer.
+
+var object1 = { a: 1, b: 2 };
+
+function fn(ob)
+{
+    console.log(ob);
+    ob = { c: 3, d: 4 };
+    console.log(ob);
+}
+
+fn(object1);
+console.log(object1);
